@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Vindravan Shri Giriraj Sewa Sadan - Spiritual Design System
+   All colors are HSL for consistency */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Royal Navy Blue - Trust & Depth */
+    --primary: 220 60% 20%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Light Gray - Secondary elements */
+    --secondary: 45 30% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 45 20% 96%;
+    --muted-foreground: 220 15% 45%;
+
+    /* Warm Gold - Subtle devotion accent */
+    --accent: 38 70% 50%;
+    --accent-foreground: 222 47% 11%;
+
+    /* Spiritual Red - Energy */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Peaceful Green - Nature */
+    --spiritual-green: 142 50% 40%;
+    --spiritual-green-foreground: 0 0% 100%;
+
+    /* Warm Gold - Muted */
+    --spiritual-yellow: 38 55% 45%;
+    --spiritual-yellow-foreground: 0 0% 100%;
+
+    /* Spiritual Red */
+    --spiritual-red: 0 72% 51%;
+    --spiritual-red-foreground: 0 0% 100%;
+
+    --border: 220 20% 90%;
+    --input: 220 20% 90%;
+    --ring: 220 60% 20%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222 47% 6%;
+    --foreground: 0 0% 98%;
+
+    --card: 222 47% 8%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 222 47% 8%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 45 100% 51%;
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 220 30% 15%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 220 30% 15%;
+    --muted-foreground: 220 15% 65%;
+
+    --accent: 38 70% 55%;
+    --accent-foreground: 222 47% 11%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --spiritual-green: 142 50% 45%;
+    --spiritual-green-foreground: 0 0% 100%;
+
+    --spiritual-yellow: 38 55% 50%;
+    --spiritual-yellow-foreground: 0 0% 100%;
+
+    --spiritual-red: 0 72% 55%;
+    --spiritual-red-foreground: 0 0% 100%;
+
+    --border: 220 30% 20%;
+    --input: 220 30% 20%;
+    --ring: 45 100% 51%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Poppins', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer utilities {
+  /* Hero slow zoom animation */
+  @keyframes slow-zoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+  .animate-slow-zoom {
+    animation: slow-zoom 25s ease-in-out infinite alternate;
+  }
+
+  /* Fade in up animation */
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 1s ease-out forwards;
+  }
+
+  /* Stagger delay utilities */
+  .delay-100 { animation-delay: 150ms; }
+  .delay-200 { animation-delay: 300ms; }
+  .delay-300 { animation-delay: 450ms; }
+  .delay-400 { animation-delay: 600ms; }
+  .delay-500 { animation-delay: 750ms; }
+
+  /* Premium spiritual gradient overlays */
+  .hero-overlay {
+    background: linear-gradient(
+      to bottom,
+      hsla(220, 60%, 8%, 0.75) 0%,
+      hsla(220, 60%, 12%, 0.55) 40%,
+      hsla(220, 60%, 8%, 0.85) 100%
+    );
+  }
+
+  /* Premium card hover effect */
+  .card-hover {
+    @apply transition-all duration-500 ease-out;
+  }
+
+  .card-hover:hover {
+    @apply -translate-y-3 shadow-2xl;
+  }
+
+  /* Spiritual decorative border */
+  .spiritual-border {
+    @apply relative;
+  }
+
+  .spiritual-border::before {
+    content: '';
+    @apply absolute left-1/2 -translate-x-1/2 w-24 h-1 rounded-full;
+    background: linear-gradient(90deg, hsl(var(--spiritual-yellow)), hsl(var(--spiritual-red)), hsl(var(--spiritual-yellow)));
+  }
+
+  /* Section padding consistency */
+  .section-padding {
+    @apply py-20 md:py-28 px-4 md:px-8;
+  }
+
+  /* Premium text shadows */
+  .text-shadow-lg {
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+
+  /* Smooth image loading */
+  .img-smooth {
+    @apply transition-opacity duration-500;
+  }
+
+  /* Premium focus rings */
+  .premium-focus {
+    @apply focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2;
+  }
+}
