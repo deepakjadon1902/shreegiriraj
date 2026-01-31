@@ -111,7 +111,7 @@ const Footer = () => {
             
             {/* Registered Office - Clickable to open map */}
             <div className="pt-4 border-t border-primary-foreground/10">
-              <p className="text-xs text-primary-foreground/60 font-medium mb-2">Founder & Operator</p>
+              <p className="text-xs text-primary-foreground/60 font-medium mb-2">Head office</p>
               <a
                 href="https://www.google.com/maps/search/Kothi+No+21+Green+Avenue+Barnala+148101"
                 target="_blank"

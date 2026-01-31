@@ -7,7 +7,7 @@ import iskconImg from '@/assets/Isckon.jpeg';
 const nearbyPlaces = [
   {
     name: 'Prem Mandir',
-    distance: '600 meters',
+    distance: '200 meters',
     timing: '5:30 AM - 8:30 PM',
     description: 'A magnificent white marble temple dedicated to Radha Krishna, renowned worldwide for its stunning architecture and mesmerizing evening light show. The temple depicts the divine pastimes of Lord Krishna.',
     image: premMandirImg,
