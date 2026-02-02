@@ -21,15 +21,12 @@ const HeroSection = () => {
          
 
           {/* Organization Name */}
-          <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold leading-tight opacity-0 animate-fade-in-up delay-100 tracking-tight">
-             Shree Giriraj
-            <span className="block text-accent mt-2">Sewa Sadan</span>
-          </h1>
+          <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold leading-tight opacity-0 animate-fade-in-up delay-100 tracking-tight">Shree Giriraj <span className="text-accent">Sewa Sadan</span></h1>
 
           {/* Subtitle - Trust Identity */}
           <div className="opacity-0 animate-fade-in-up delay-200">
             <span className="inline-block px-6 py-2 border border-white/30 rounded-full text-sm md:text-base font-medium tracking-widest uppercase backdrop-blur-sm bg-white/5">
-             सेवाभावी धर्मार्थ संस्था
+             अति आधुनिक एवं वातानुकूलित बरनाला वालों की पंजीकृत धर्मशाला
             </span>
           </div>
 

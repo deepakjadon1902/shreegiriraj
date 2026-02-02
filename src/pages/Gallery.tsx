@@ -12,6 +12,12 @@ interface Facility {
 const facilities: Facility[] = [
   // Trust Facilities
   {
+  id: 16,
+  name: 'The Sakshi Gopal Ju',
+  description: 'A sacred deity of Lord Krishna as Sakshi Gopal, the divine witness. Devotees offer prayers and seek blessings in this spiritually enriching atmosphere of devotion and tranquility.',
+  image: '/assets/giriraj sakshi gopal ji.jpeg',
+},
+  {
     id: 1,
     name: 'Spacious Lawn Area',
     description: 'A beautifully maintained  lawn where devotees can sit peacefully, practice meditation, or gather for spiritual discussions in a serene natural environment.',

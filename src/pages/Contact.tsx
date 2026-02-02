@@ -181,7 +181,7 @@ const Contact = () => {
                       <address className="not-italic text-muted-foreground leading-relaxed">
                         Keshav Dham Road,<br />
                         In front of Prem Mandir,<br />
-                        Shri Vrindavan - 281121
+                        Vrindavan - 281121
                       </address>
                     </div>
                   </div>
@@ -399,7 +399,6 @@ const Contact = () => {
                               <SelectValue placeholder="Select room type" />
                             </SelectTrigger>
                             <SelectContent className="bg-background">
-                              <SelectItem value="non-ac">Non-AC Room</SelectItem>
                               <SelectItem value="ac">AC Room</SelectItem>
                               <SelectItem value="four-occupancy">Four Occupancy Room</SelectItem>
                               <SelectItem value="multi-occupancy">Multi-Occupancy Room</SelectItem>

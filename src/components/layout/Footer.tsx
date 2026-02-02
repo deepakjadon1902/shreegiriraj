@@ -20,42 +20,12 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="font-serif text-lg font-bold">Shree Giriraj Sewa Sadan</h3>
-                <p className="text-sm text-primary-foreground/80">भक्ति और समर्पण के साथ सेवा</p>
+                <p className="text-sm text-primary-foreground/80">बरनाला वालों की (पंजी.) धर्मशाला</p>
               </div>
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">
               श्रीवृंदावन धाम की पावन गोद में दिव्य आतिथ्य का अनुभव करें—जहाँ हर क्षण भक्ति, शांति और आत्मिक आनंद से भर देता है।
             </p>
-            {/* Social Icons */}
-            <div className="flex gap-4 pt-2">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook size={18} />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter size={18} />
-              </a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors"
-                aria-label="YouTube"
-              >
-                <Youtube size={18} />
-              </a>
-            </div>
           </div>
 
           {/* Contact Information */}
@@ -81,7 +51,7 @@ const Footer = () => {
                 className="flex items-start gap-3 text-sm text-primary-foreground/80 hover:text-accent transition-colors"
               >
                 <Phone size={16} className="mt-0.5 flex-shrink-0" />
-                <span>+91 99276 00029</span>
+                <span>+91 99276 00019</span>
               </a>
               <a
                 href="mailto:shreegirirajsewasadan@gmail.com"
@@ -100,14 +70,19 @@ const Footer = () => {
           {/* Vrindavan Address */}
           <div className="space-y-4">
             <h4 className="font-serif text-lg font-semibold">Vrindavan Location</h4>
-            <div className="flex items-start gap-3 text-sm text-primary-foreground/80">
+            <a
+              href="https://www.google.com/maps/place/27.56981939242527,77.67029602412968"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-start gap-3 text-sm text-primary-foreground/80 hover:text-accent transition-colors cursor-pointer"
+            >
               <MapPin size={16} className="mt-0.5 flex-shrink-0" />
               <address className="not-italic leading-relaxed">
                 Keshav Dham Road,<br />
                 In front of Prem Mandir,<br />
-                Shri Vrindavan - 281121
+               Vrindavan - 281121
               </address>
-            </div>
+            </a>
             
             {/* Registered Office - Clickable to open map */}
             <div className="pt-4 border-t border-primary-foreground/10">

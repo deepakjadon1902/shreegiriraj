@@ -43,7 +43,7 @@ You have the right to:
 If you have questions about this Privacy Policy, please contact us at:
 Vindravan Shri Giriraj Sewa Sadan
 Keshav Dham Rd, Vrindavan, Uttar Pradesh 281121
-Phone: +91 98098 02980
+Phone: +91 99276 00017, +91 99276 00019, +91 99276 00019
 `;
 
 const termsContent = `
@@ -89,7 +89,7 @@ We reserve the right to modify these terms at any time. Continued use of our ser
 
 9. Contact Information
 For any queries regarding these terms, please contact:
-Phone: +91 98098 02980, +91 89558 07505
+Phone: +91 99276 00017, +91 99276 00019, +91 99276 00019
 Address: Keshav Dham Rd, Vrindavan, UP 281121
 `;
 

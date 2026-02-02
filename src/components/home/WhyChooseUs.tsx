@@ -22,7 +22,7 @@ const features = [
   {
     icon: MapPin,
     title: 'Prime Location',
-    description: 'Just 600 meters from Prem Mandir and close to all major temples of Vrindavan.',
+    description: 'Just 200 meters from Prem Mandir and close to all major temples of Vrindavan.',
     color: 'primary',
   },
   {
