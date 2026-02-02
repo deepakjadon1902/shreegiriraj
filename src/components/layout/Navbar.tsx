@@ -37,7 +37,7 @@ const Navbar = () => {
                 Shree Giriraj Sewa Sadan
               </h1>
               <p className="text-xs tracking-wider uppercase text-gray-600 transition-colors duration-300">
-                बरनाला वालों की (पंजी.) धर्मशाला
+                बरनाला वालों की वातानुकूलित (पंजी.)  धर्मशाला
               </p>
             </div>
           </Link>

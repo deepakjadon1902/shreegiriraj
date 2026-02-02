@@ -41,7 +41,7 @@ You have the right to:
 
 6. Contact Us
 If you have questions about this Privacy Policy, please contact us at:
-Vindravan Shri Giriraj Sewa Sadan
+Shree Giriraj Sewa Sadan
 Keshav Dham Rd, Vrindavan, Uttar Pradesh 281121
 Phone: +91 99276 00017, +91 99276 00019, +91 99276 00019
 `;
@@ -76,7 +76,7 @@ Guests are expected to:
 - Cancellations made within 24 hours: No refund
 
 6. Liability
-Vindravan Shri Giriraj Sewa Sadan is not responsible for any loss, damage, or theft of personal belongings. Guests are advised to secure their valuables.
+Shree Giriraj Sewa Sadan is not responsible for any loss, damage, or theft of personal belongings. Guests are advised to secure their valuables.
 
 7. Rules and Regulations
 - Smoking and alcohol consumption is strictly prohibited

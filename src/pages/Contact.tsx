@@ -222,17 +222,17 @@ const Contact = () => {
 
                   {/* Working Hours */}
                   <div className="flex gap-4">
-                    <div className="w-12 h-12 rounded-lg bg-spiritual-red/10 flex items-center justify-center flex-shrink-0">
-                      <Clock className="w-6 h-6 text-spiritual-red" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-1">Working Hours</h3>
-                      <p className="text-muted-foreground">
-                        24 Hours / 7 Days a Week<br />
-                        <span className="text-sm">We're always available to serve you</span>
-                      </p>
-                    </div>
-                  </div>
+  <div className="w-12 h-12 rounded-lg bg-spiritual-red/10 flex items-center justify-center flex-shrink-0">
+    <Clock className="w-6 h-6 text-spiritual-red" />
+  </div>
+  <div>
+    <h3 className="font-semibold text-foreground mb-1">Working Hours</h3>
+    <p className="text-muted-foreground">
+      9 AM to 9 PM / 7 Days a Week<br />
+      <span className="text-sm">We're always available to serve you</span>
+    </p>
+  </div>
+</div>
                 </div>
               </div>
 

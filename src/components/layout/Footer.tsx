@@ -20,7 +20,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="font-serif text-lg font-bold">Shree Giriraj Sewa Sadan</h3>
-                <p className="text-sm text-primary-foreground/80">बरनाला वालों की (पंजी.) धर्मशाला</p>
+                <p className="text-sm text-primary-foreground/80">बरनाला वालों की वातानुकूलित (पंजी.)   धर्मशाला</p>
               </div>
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">

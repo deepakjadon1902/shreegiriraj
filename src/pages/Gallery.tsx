@@ -14,102 +14,102 @@ const facilities: Facility[] = [
   {
   id: 16,
   name: 'The Sakshi Gopal Ju',
-  description: 'A sacred deity of Lord Krishna as Sakshi Gopal, the divine witness. Devotees offer prayers and seek blessings in this spiritually enriching atmosphere of devotion and tranquility.',
+  description: '',
   image: '/assets/giriraj sakshi gopal ji.jpeg',
 },
   {
     id: 1,
     name: 'Spacious Lawn Area',
-    description: 'A beautifully maintained  lawn where devotees can sit peacefully, practice meditation, or gather for spiritual discussions in a serene natural environment.',
+    description: '',
     image: '/assets/giriraj pooja lawn.jpeg',
   },
   {
     id: 2,
     name: 'Secure Parking Facility',
-    description: 'Safe and spacious parking area for cars, bikes, and buses. Our 24/7 security ensures your vehicles are protected throughout your stay.',
+    description: '',
     image: '/assets/giriraj parking.jpeg',
   },
   
   {
     id: 3,
     name: 'Trust Compound',
-    description: 'Our well-maintained compound provides a safe and clean environment for families and groups. The entire premises is kept spotless for devotee comfort.',
+    description: '',
     image: '/assets/giriraj main compund.jpeg',
   },
   // Food Services
   {
     id: 4,
     name: 'Satvik Food Service',
-    description: 'Pure vegetarian meals prepared with love and devotion. Our kitchen serves fresh, hygienic satvik food following traditional recipes blessed for spiritual nourishment.',
+    description: '',
     image: '/assets/giriraj satvik food.jpeg',
   },
   {
     id: 5,
     name: 'Prasadam Distribution',
-    description: 'Daily prasadam is offered to all guests as a sacred blessing. Experience the divine taste of food offered to the Lord with pure devotion.',
+    description: '',
     image: '/assets/giriraj kitchen.jpeg',
   },
   // Room Types
   {
     id: 6,
     name: 'AC Double Bed Room',
-    description: 'A comfortable budget-friendly room with a double bed, ideal for  travelers or sadhus seeking a simple and peaceful stay during their pilgrimage.',
+    description: '',
     image: '/assets/giriraj double bed rrom.jpeg',
   },
   {
     id: 7,
     name: ' AC Four Bed  Room',
-    description: 'Spacious AC room with a comfortable Four bed and attached bathroom. Perfect for couples or small families on a budget pilgrimage.',
+    description: '',
     image: '/assets/giriraj 4 bed Ac room.jpeg',
   },
   {
     id: 8,
     name: ' AC Eight Bed  Room',
-    description: 'Ideal for families or groups of three, this room features Four single beds with essential amenities for a comfortable AC stay.',
+    description: '',
     image: '/assets/giriraj 4 bed ac rrom.jpeg',
   },
  
  {
     id: 9,
     name: 'Lift Service',
-    description: 'Modern elevator facility available for easy access to all floors, especially convenient for elderly devotees and families with luggage.',
+    description: '',
     image: '/assets/giriraj lift.jpeg',
   },
   {
     id: 10,
     name: 'Attached Clean Washroom',
-    description: 'Every room comes with a clean, hygienic attached bathroom with 24/7 running water supply and proper sanitation maintained daily.',
+    description: '',
     image: '/assets/giriraj washroom.jpeg',
   },
   {
     id: 11,
     name: 'Balcony',
-    description: 'Selected rooms feature private balconies offering serene views, perfect for morning prayers and evening meditation in the fresh air.',
+    description: '',
     image: '/assets/giriraj balcony.jpeg',
   },
   {
     id: 12,
     name: 'Private TV in Room',
-    description: 'Enjoy spiritual programs and devotional channels with a private television in your room, keeping you connected to divine content.',
+    description: '',
     image: '/assets/giriraj Tv service.jpeg',
   },
   // Other Facilities
   {
     id: 13,
     name: 'Reception & Assistance',
-    description: 'Friendly staff available round the clock to assist with bookings, local guidance, temple timings, and any help you need during your spiritual journey.',
+    description: '',
     image: '/assets/giriraj reception.jpeg',
   },
   {
     id: 14,
     name: 'Common Sitting Area',
-    description: 'Comfortable common areas where devotees can gather, share spiritual experiences, and build connections with fellow pilgrims from across the country.',
+    description: '',
     image: '/assets/giriraj waiting area.jpeg',
   },
   {
     id: 15,
     name: 'Personal Almirah in Room',
-    description: 'Secure storage almirah provided in each room to safely keep your belongings, clothes, and valuables during your spiritual stay.',
+    description: '',
     image: '/assets/giriraj almirah or drawer.jpeg',
   },
 ];
@@ -169,9 +169,11 @@ const Gallery = () => {
                   <h3 className="font-serif text-xl font-semibold text-foreground mb-3">
                     {facility.name}
                   </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {facility.description}
-                  </p>
+                  {facility.description && (
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {facility.description}
+                    </p>
+                  )}
                 </div>
               </div>
             ))}
