@@ -10,7 +10,7 @@ const AboutSection = () => {
             हमारे ट्रस्ट के बारे में
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-           यहाँ प्रत्येक अतिथि को भक्त नहीं, परिवार के सदस्य की तरह सम्मान और स्नेह प्रदान किया जाता है।
+           यहाँ प्रत्येक अतिथि को यात्री नहीं, परिवार के सदस्य की तरह सम्मान और स्नेह प्रदान किया जाता है।
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-spiritual-yellow via-spiritual-red to-spiritual-yellow mx-auto rounded-full mb-8" />
           <p className="text-lg text-muted-foreground leading-relaxed">
