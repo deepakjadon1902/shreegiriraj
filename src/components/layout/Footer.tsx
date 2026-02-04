@@ -20,7 +20,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="font-serif text-lg font-bold">Shree Giriraj Sewa Sadan</h3>
-                <p className="text-sm text-primary-foreground/80">बरनाला वालों की वातानुकूलित (पंजी.)   धर्मशाला</p>
+                <p className="text-sm text-primary-foreground/80">बरनाला वालों की वातानुकूलित (पंजी.) धर्मशाला</p>
               </div>
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">
@@ -93,7 +93,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="block text-xs text-primary-foreground/70 leading-relaxed hover:text-accent transition-colors cursor-pointer"
               >
-                Shri Giriraj Seva Sadan (Reg. - 82)<br />
+                Shree Giriraj Seva Sadan (Reg. - 82)<br />
                 Kothi No. 21, Green Avenue,<br />
                 Baranala – 148101
               </a>
