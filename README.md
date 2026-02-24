@@ -1,82 +1,124 @@
-# 🌸  Shree Giriraj Sewa Sadan Trust
+# 🌸 Shree Giriraj Sewa Sadan Trust Website
 
-*A Spiritual Hospitality Application*
-
----
-
-## 🙏 About the Application
-
-**Vrindavan Shri Giriraj Sewa Sadan Trust** is a spiritual hospitality application designed to serve devotees visiting the holy land of **Vrindavan Dham**. The application reflects the trust’s mission of **Seva with Devotion**, offering pilgrims a peaceful, comfortable, and spiritually enriching stay.
-
-More than just accommodation, the trust provides a complete **divine hospitality experience**—rooted in love, devotion, and selfless service to the devotees of **Shri Radha Krishna**.
+*A Premium Spiritual Hospitality Web Application*
 
 ---
 
-## 🌼 Our Vision
+## 📌 Project Overview
 
-To serve every pilgrim with humility, compassion, and devotion, and to create a home-like spiritual retreat where peace, bhakti, and comfort come together in the sacred land of Vrindavan.
+The **Shree Giriraj Sewa Sadan Trust Website** is a premium informative web application developed for a charitable spiritual hospitality trust located in Vrindavan Dham.
 
----
+This platform is designed to provide devotees with complete information about accommodation services, spiritual environment, facilities, and contact support — all within a modern, responsive, and user-friendly interface.
 
-## 🌿 Key Features
-
-* 🛏️ **Comfortable Accommodation**
-  Clean, peaceful, and well-maintained rooms designed for spiritual rest.
-
-* 🍃 **Satvik Meals**
-  Fresh, nourishing, and pure vegetarian food prepared with devotion.
-
-* 🕉️ **Spiritual Environment**
-  A calm and sacred atmosphere ideal for meditation, prayer, and reflection.
-
-* 🤝 **Devotee-Centric Service**
-  Guest assistance and seva provided with love and humility.
-
-* 📍 **Prime Location**
-  Located just **600 meters from Prem Mandir**, with easy access to major temples and holy sites of Vrindavan.
+The website reflects the trust’s mission of **"Seva with Devotion"**, offering pilgrims a peaceful and spiritually enriching experience.
 
 ---
 
-## 🛕 Nearby Sacred Destinations
+## 🛠️ Technology Stack
+
+This application has been built using modern frontend technologies to ensure performance, scalability, and responsiveness:
+
+* ⚛️ React
+* 🔷 TypeScript (Strict Mode)
+* 🎨 Tailwind CSS
+* 🌐 Responsive Design (Mobile, Tablet, Desktop)
+
+---
+
+## ✨ Key Features Implemented
+
+### 🛏️ Comfortable Accommodation Information
+
+Detailed presentation of clean, peaceful, and well-maintained rooms designed for spiritual rest.
+
+### 🍃 Satvik Meals Information
+
+Information about fresh, nourishing, and pure vegetarian meals prepared with devotion.
+
+### 🕉️ Spiritual Environment Showcase
+
+Highlights of the calm and sacred atmosphere ideal for meditation, prayer, and reflection.
+
+### 🤝 Devotee-Centric Service Details
+
+Clear communication about assistance and seva provided with love and humility.
+
+### 📍 Prime Location Highlight
+
+Located just **200 meters from Prem Mandir**, with easy access to major temples and holy sites of Vrindavan.
+
+### 📱 WhatsApp Integration
+
+Direct communication feature allowing devotees to instantly connect via WhatsApp for inquiries and booking assistance.
+
+### 🗺️ Google Maps Integration
+
+Embedded Google Map for accurate and convenient location navigation.
+
+### 🎯 Premium UI/UX
+
+* Clean and elegant spiritual theme
+* Fast loading performance
+* Structured content layout
+* Smooth navigation experience
+
+---
+
+## 🛕 Nearby Sacred Destinations Highlighted
 
 * Prem Mandir
 * Shri Banke Bihari Ji Temple
 * ISKCON Vrindavan
-* Radha Raman Temple
-* Govardhan & Giriraj Ji
+* Char Dham Temple
 
 ---
 
-## 💖 Our Commitment to Seva
+## 💖 Trust Mission & Purpose
 
-As a **Charitable Trust Organization**, we do not operate for profit. Our sole purpose is to serve devotees and support their spiritual journey. Every service—whether accommodation, meals, or guidance—is offered with **nishkam seva (selfless service)** and devotion to Shri Radha Krishna.
+This is a **Charitable Trust Organization Website** created purely for informational and devotional purposes.
+
+The trust operates on the principle of **Nishkam Seva (Selfless Service)** and does not function as a commercial hospitality business. The website reflects this spiritual and service-oriented philosophy.
 
 ---
 
-## 🌺 Why Choose Us
+## 🚀 Deployment Details
 
-* A peaceful spiritual retreat in the heart of Vrindavan
-* Trust-run, service-oriented, and non-commercial
-* Clean, safe, and devotee-friendly environment
-* A home away from home for every pilgrim
+* Hosted on Hostinger
+* Connected with primary and secondary domains
+* Production-ready optimized build
+* Secure and stable hosting configuration
+
+---
+
+## 🔧 Maintenance & Support (Client Agreement)
+
+As part of the project delivery agreement:
+
+* 1 Month of Complimentary Maintenance Support
+* First Three Bug Fixes Free of Cost
+
+Any additional feature requests or major enhancements will be handled under a separate development agreement.
+
+---
+
+## 📂 Project Structure
+
+The project follows a structured and scalable React + TypeScript architecture with reusable components and modular styling using Tailwind CSS.
 
 ---
 
 ## 📞 Contact & Support
 
-Have questions or ready to plan your spiritual stay?
-
-Reach out to us through the application’s **Contact Us** section. Our team will respond as quickly as possible to assist you with your pilgrimage planning.
+Devotees can connect through the website’s **Contact Us** section or via WhatsApp integration for quick assistance.
 
 ---
 
 ## 🌸 Final Note
 
-"Experience divine hospitality in the sacred land of Vrindavan.
-Your peaceful spiritual retreat awaits."
+"Experience divine hospitality in the sacred land of Vrindavan. Your peaceful spiritual retreat awaits."
 
-🙏 **Radha Krishna** 🙏
+🙏 Radha Krishna 🙏
 
 ---
 
-*Made with devotion, for devotees.*
+*Developed with dedication and professionalism to reflect spiritual values through modern web technology.*
