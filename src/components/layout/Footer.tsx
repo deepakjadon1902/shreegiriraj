@@ -51,7 +51,7 @@ const Footer = () => {
                 className="flex items-start gap-3 text-sm text-primary-foreground/80 hover:text-accent transition-colors"
               >
                 <Phone size={16} className="mt-0.5 flex-shrink-0" />
-                <span>+91 99276 00019</span>
+                <span>+91 99276 00029</span>
               </a>
               <a
                 href="mailto:shreegirirajsewasadan@gmail.com"
@@ -71,7 +71,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-serif text-lg font-semibold">Vrindavan Location</h4>
             <a
-              href="https://www.google.com/maps/place/Shri+Giriraj+Sewa+Sadan+(Regd.)+Barnala,+Keshav+Dham+Rd,+Chaitanya+Vihar,+Rajpur+Khadar,+Vrindavan,+Uttar+Pradesh+281121/@27.5696922,77.6700457,21z/data=!4m6!3m5!1s0x39736e1a25409f3f:0x9b8e898c2ed6cec!8m2!3d27.5696799!4d77.6701661!16s%2Fg%2F11b77cxt3l?authuser=0&entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D"
+              href="https://www.google.com/maps/place/Shri+Giriraj+Sewa+Sadan/@27.5696282,77.6700429,19z/data=!3m1!4b1!4m6!3m5!1s0x39736e1a3ab83695:0xbfc876719005434e!8m2!3d27.5696282!4d77.6700429!16s%2Fg%2F11b6_7snqk?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-start gap-3 text-sm text-primary-foreground/80 hover:text-accent transition-colors cursor-pointer"

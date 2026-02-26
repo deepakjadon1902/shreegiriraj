@@ -13,7 +13,7 @@ const facilities: Facility[] = [
   // Trust Facilities
   {
   id: 16,
-  name: 'The Sakshi Gopal Ju',
+  name: ' Sakshi Gopal Ju',
   description: '',
   image: '/assets/giriraj sakshi gopal ji.jpeg',
 },

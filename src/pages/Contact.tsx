@@ -222,17 +222,17 @@ const Contact = () => {
 
                   {/* Working Hours */}
                   <div className="flex gap-4">
-  <div className="w-12 h-12 rounded-lg bg-spiritual-red/10 flex items-center justify-center flex-shrink-0">
-    <Clock className="w-6 h-6 text-spiritual-red" />
-  </div>
-  <div>
-    <h3 className="font-semibold text-foreground mb-1">Working Hours</h3>
-    <p className="text-muted-foreground">
-      9 AM to 9 PM / 7 Days a Week<br />
-      <span className="text-sm">We're always available to serve you</span>
-    </p>
-  </div>
-</div>
+                    <div className="w-12 h-12 rounded-lg bg-spiritual-red/10 flex items-center justify-center flex-shrink-0">
+                      <Clock className="w-6 h-6 text-spiritual-red" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-foreground mb-1">Working Hours</h3>
+                      <p className="text-muted-foreground">
+                        9 AM to 9 PM / 7 Days a Week<br />
+                        <span className="text-sm">We're always available to serve you</span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -262,10 +262,10 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Map Placeholder */}
+              {/* Map */}
               <div className="bg-secondary rounded-xl overflow-hidden h-64">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.2!2d77.6!3d27.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zVnJpbmRhdmFu!5e0!3m2!1sen!2sin!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.6!2d77.6700429!3d27.5696282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39736e1a3ab83695%3A0xbfc876719005434e!2sShri+Giriraj+Sewa+Sadan!5e0!3m2!1sen!2sin!4v1234567890"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
