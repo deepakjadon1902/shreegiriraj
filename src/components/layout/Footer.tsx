@@ -13,7 +13,7 @@ const Footer = () => {
            <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/assets/giriraj logo.png" 
+                  src="/assets/giriraj-logo.png" 
                   alt="Shree Giriraj Sewa Sadan Logo" 
                   className="w-full h-full object-cover"
                 />

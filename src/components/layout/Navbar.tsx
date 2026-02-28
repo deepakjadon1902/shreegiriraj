@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-3 group">
             <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center border-2 border-gray-200 hover:border-gray-300 transition-all duration-300 bg-white shadow-sm">
               <img 
-                src="/assets/giriraj logo.png" 
+                src="/assets/giriraj-logo.png" 
                 alt="Shree Giriraj Sewa Sadan Logo" 
                 className="w-full h-full object-cover"
               />
