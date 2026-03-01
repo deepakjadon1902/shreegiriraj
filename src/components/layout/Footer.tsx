@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import { Phone, MapPin, Mail, Clock, Facebook, Twitter, Youtube } from 'lucide-react';
 import LegalModal from '@/components/modals/LegalModal';
 
+const logoSrc = '/assets/giriraj-logo.png?v=20260227';
+
 const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground">
@@ -13,9 +15,9 @@ const Footer = () => {
            <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/assets/giriraj-logo.png" 
+                  src={logoSrc} 
                   alt="Shree Giriraj Sewa Sadan Logo" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div>
